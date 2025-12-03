@@ -1,0 +1,17 @@
+body {
+font-family: 'Segoe UI', sans-serif;
+}
+
+
+#map {
+border: 2px solid #222;
+}
+
+
+.train-card {
+transition: 0.2s;
+}
+.train-card:hover {
+transform: scale(1.02);
+background-color: rgba(255,255,255,0.05);
+}

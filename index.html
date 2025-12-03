@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Finnish Train Tracker</title>
+
+
+<!-- Bootstrap Dark Theme -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+<!-- Leaflet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+
+<link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-dark text-light p-3">
+
+
+<div class="container-fluid">
+<h1 class="text-center mb-4 fw-bold display-5 text-info">Live Train Tracker</h1>
+
+
+<!-- Controls -->
+<div class="card bg-secondary p-4 shadow-lg mb-4 rounded-4">
+<div class="row g-3">
+<div class="col-md-4">
+<label class="form-label">Select Station</label>
+<select id="stationSelect" class="form-select"></select>
+</div>
+<div class="col-md-4">
+<label class="form-label">Search</label>
+<input id="searchInput" class="form-control" placeholder="Search station…" />
+</div>
+<div class="col-md-4 d-grid">
+<label class="invisible">btn</label>
+<button id="searchBtn" class="btn btn-info fw-bold">Search Station</button>
+</div>
+</div>
+</div>
+
+
+<!-- TWO COLUMN LAYOUT -->
+<div class="row g-4">
+
+
+<!-- Train list -->
+<div class="col-lg-5 col-md-12">
+<div id="results" class="card bg-secondary p-4 shadow-lg rounded-4 h-100"></div>
+</div>
+
+
+<!-- Map -->
+<div class="col-lg-7 col-md-12">
+<div id="map" class="rounded-4 shadow-lg" style="height: 600px;"></div>
+</div>
+
+
+</div>
+</div>
+
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+<!-- Axios -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+
+<!-- Leaflet -->
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+
+<script src="script.js"></script>
+</body>
+</html>
