@@ -17,7 +17,6 @@ Finnish Live Train Tracker on selaimessa toimiva sovellus, joka näyttää:
 - Interaktiivisen karttanäkymän Leafletillä
 
 ## Teknologiat
-
 - HTML5
 - CSS3 + Bootstrap 5
 - JavaScript
@@ -27,11 +26,9 @@ Finnish Live Train Tracker on selaimessa toimiva sovellus, joka näyttää:
 - Digitraffic API
 
 ## Asennus
-
 - https://wsjs-libproject.netlify.app/
 
 ## Kiitokset
-
 - Leaflet-dokumentaatio
 - Digitraffic API -dokumentaatio
 - Bootstrap-dokumentaatio
