@@ -28,9 +28,7 @@ Finnish Live Train Tracker on selaimessa toimiva sovellus, joka näyttää:
 
 ## Asennus
 
-- git clone <https://github.com/frankfred930/WSJS-LibProject.git>
-- cd WSJS-LibProject
-- open index.html
+- https://wsjs-libproject.netlify.app/
 
 ## Kiitokset
 
